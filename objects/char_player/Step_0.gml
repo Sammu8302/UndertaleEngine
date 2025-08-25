@@ -38,3 +38,13 @@ if(can_move){
 }
 
 event_inherited();
+
+if (keyboard_check(vk_escape)) {
+    esc_hold_time += 1;
+} else {
+    esc_hold_time = 0;
+}
+
+if (esc_hold_time >= 180) { // 180 steps = 3 seconds at 60fps
+    game_end();
+}
