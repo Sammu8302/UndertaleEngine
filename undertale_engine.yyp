@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"undertale_engine",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -98,6 +98,7 @@
     {"$GMFolder":"","%Name":"Small","folderPath":"folders/Sprites/Gamepad/PS4/Small.yy","name":"Small","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"font.txt","CopyToMask":-1,"filePath":"datafiles/locale/english","name":"font.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"determination_mono.ini","CopyToMask":-1,"filePath":"datafiles/locale/english/font","name":"determination_mono.ini","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
